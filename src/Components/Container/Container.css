@@ -1,0 +1,12 @@
+.main {
+  background: radial-gradient(
+    circle at bottom left,
+    rgba(19, 19, 19, 1),
+    rgba(9, 9, 9, 0.8) 35%,
+    rgba(4, 4, 4, 0.6) 100%
+  ) !important;
+  color: white;
+  box-shadow: 0 0 0 0.25px #fff9f6;
+  border-radius: 3px;
+  padding: 24px;
+}

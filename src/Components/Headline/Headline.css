@@ -1,0 +1,23 @@
+.location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.location p {
+  color: #f6f6f6;
+  font-weight: 400;
+}
+
+.location-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.location-header h4 {
+  margin: 0 0 0 2px;
+}
