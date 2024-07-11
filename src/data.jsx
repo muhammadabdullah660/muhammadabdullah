@@ -13,7 +13,7 @@ const Skills = [
 
 const ExperienceItems = [
   {
-    icon: "/images/Woit Solutions.png",
+    icon: `${process.env.PUBLIC_URL}/images/Woit Solutions.png`,
     company: "Woit Solutions",
     title: "Software Development Intern",
     date: "Jun. 23 - Aug. 23",

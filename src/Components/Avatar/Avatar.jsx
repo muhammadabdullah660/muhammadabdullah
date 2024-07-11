@@ -2,7 +2,7 @@ import React from "react";
 import "./Avatar.css";
 
 const Avatar = () => {
-  const imageUrl = "/images/Muhammad Abdullah.jpg";
+  const imageUrl = `${process.env.PUBLIC_URL}/images/Muhammad Abdullah.jpg`;
   const altText = "Avatar";
   return (
     <div className="avatar-container">
