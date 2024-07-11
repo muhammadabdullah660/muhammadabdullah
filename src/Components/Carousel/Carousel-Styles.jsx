@@ -30,7 +30,7 @@ export const CarouselWrapper = styled.div`
 export const SkillItem = styled.div`
   display: inline-block;
   padding: 0 15px;
-  font-size: 24px;
+  font-size: 20px;
   font-style: italic;
   color: #fff9f6;
   font-family: "Gambetta", serif;

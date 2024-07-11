@@ -4,7 +4,9 @@ import Container from "./Components/Container/Container";
 import Headline from "./Components/Headline/Headline";
 import Avatar from "./Components/Avatar/Avatar";
 import Carousel from "./Components/Carousel/Carousel";
-import Skills from "./data";
+import { Skills } from "./data";
+import About from "./Components/About/About";
+import Experience from "./Components/Experience/Experience";
 export default function App() {
   return (
     <div className="App">
@@ -19,7 +21,21 @@ export default function App() {
       </div>
       {/* Skills row */}
       <div className="row">
-        <Carousel data={Skills} />
+        <div className="col-md-12">
+          <Carousel data={Skills} />
+        </div>
+      </div>
+      {/* About row */}
+      <div className="row">
+        <div className="col-md-12">
+          <Container Child={About} />
+        </div>
+      </div>
+      {/* Exp row */}
+      <div className="row">
+        <div className="col-md-12">
+          <Container Child={Experience} />
+        </div>
       </div>
     </div>
   );
