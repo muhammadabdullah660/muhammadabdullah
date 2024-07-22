@@ -8,6 +8,7 @@ import { Skills } from "./data";
 import About from "./Components/About/About";
 import Experience from "./Components/Experience/Experience";
 import Education from "./Components/Education/Education";
+import ToolStack from "./Components/ToolStack/ToolStack";
 export default function App() {
   return (
     <div className="App">
@@ -42,6 +43,12 @@ export default function App() {
       <div className="row">
         <div className="col-md-12">
           <Container Child={Education} />
+        </div>
+      </div>
+      {/* Tool Stack row */}
+      <div className="row">
+        <div className="col-md-12">
+          <Container Child={ToolStack} />
         </div>
       </div>
     </div>

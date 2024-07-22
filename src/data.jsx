@@ -11,6 +11,17 @@ const Skills = [
   "C#",
 ];
 
+const Tools = [
+  "Visual Studio Code",
+  "Github",
+  "Figma",
+  "Jira",
+  "Slack",
+  "Postman",
+  "Notion",
+  "MongoDBCompass",
+  "Microsoft Azure",
+];
 const ExperienceItems = [
   {
     icon: `${process.env.PUBLIC_URL}/images/Woit Solutions.png`,
@@ -44,4 +55,4 @@ const EducationItems = [
   },
 ];
 
-export { Skills, ExperienceItems, EducationItems };
+export { Skills, ExperienceItems, EducationItems, Tools };
