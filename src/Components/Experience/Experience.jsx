@@ -29,6 +29,11 @@ export default function Experience() {
                   <h3>{item.date}</h3>
                 </div>
               </div>
+              <div className="row">
+                <div className="col-md-12 ps-0 pe-0 mt-4">
+                  <p>{item.desc}</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
