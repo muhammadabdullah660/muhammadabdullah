@@ -7,6 +7,7 @@ import Carousel from "./Components/Carousel/Carousel";
 import { Skills } from "./data";
 import About from "./Components/About/About";
 import Experience from "./Components/Experience/Experience";
+import Education from "./Components/Education/Education";
 export default function App() {
   return (
     <div className="App">
@@ -31,10 +32,16 @@ export default function App() {
           <Container Child={About} />
         </div>
       </div>
-      {/* Exp row */}
+      {/* Experience row */}
       <div className="row">
         <div className="col-md-12">
           <Container Child={Experience} />
+        </div>
+      </div>
+      {/* Education row */}
+      <div className="row">
+        <div className="col-md-12">
+          <Container Child={Education} />
         </div>
       </div>
     </div>

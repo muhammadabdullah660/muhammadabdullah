@@ -1,14 +1,14 @@
 import React from "react";
-import "./Experience.css"; // Import the CSS file for styling
-import { ExperienceItems } from "../../data"; // Import the experience data from data.jsx
+import "./Education.css"; // Import the CSS file for styling
+import { EducationItems } from "../../data"; // Import the Education data from data.jsx
 
-export default function Experience() {
+export default function Education() {
   return (
     <>
-      <h2>Experience</h2>
+      <h2>Education</h2>
 
-      {ExperienceItems.map((item, index) => (
-        <div className="container-fluid mt-5 ps-0">
+      {EducationItems.map((item, index) => (
+        <div className="container-fluid mt-5 ps-0 mb-4">
           <div className="row" key={index}>
             <div className="col-md-2">
               <div className="icon-container">
@@ -27,11 +27,6 @@ export default function Experience() {
                 </div>
                 <div className="col-md-4 ps-0 pe-0 d-flex align-items-end">
                   <h3>{item.date}</h3>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-md-12 ps-0 pe-0 mt-4">
-                  <p>{item.desc}</p>
                 </div>
               </div>
             </div>

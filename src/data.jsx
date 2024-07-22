@@ -35,5 +35,13 @@ const ExperienceItems = [
     desc: "Translated design mockups from PSD, Figma, and InDesign into fully responsive HTML/CSS user interfaces. Crafted professional email signatures using HTML and CSS, ensuring alignment with company branding.",
   },
 ];
+const EducationItems = [
+  {
+    icon: `${process.env.PUBLIC_URL}/images/uet-lahore.png`,
+    company: "University of Engineering and Techonology, Lahore",
+    title: "BS. Computer Science",
+    date: "2021 - Present",
+  },
+];
 
-export { Skills, ExperienceItems };
+export { Skills, ExperienceItems, EducationItems };
