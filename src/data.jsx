@@ -30,7 +30,7 @@ const ExperienceItems = {
       company: "Woit Solutions",
       title: "Software Development Intern",
       date: "Jun. 23 - Aug. 23",
-      desc: "Enhanced WOIT Solutions’ website frontend with TypeScript to optimize user experience and navigation. Implemented Stripe payment gateway for secure and efficient transactions, managing the integration process. Designed and built the admin panel using React, Node.js, and MongoDB, incorporating functionalities like user management and handling briefs and brands.",
+      desc: "Enhanced WOIT Solutions’ website frontend with TypeScript to optimize user experience and navigation. Implemented Stripe payment gateway for secure and efficient transactions. Designed and built the admin panel using React, Node.js, and MongoDB, incorporating functionalities like user management and handling briefs and brands.",
     },
 
     {
@@ -38,7 +38,7 @@ const ExperienceItems = {
       company: "University of Engineering and Techonology, Lahore",
       title: "Teaching Assistant",
       date: "Dec. 22 - Jun. 23",
-      desc: "Instructed students in the Lab of PF and OOP, conducting sessions where they developed applications using C# and C++, managed version control with GitHub, and designed graphical user interfaces with WinForms. Assisted in grading assignments and projects, providing feedback to students to help them improve their coding skills.",
+      desc: "Instructed students in the Lab of PF and OOP, conducting sessions where they developed applications using .net, and designed graphical user interfaces with WinForms. Assisted in grading assignments and projects, providing feedback to students to help them improve their coding skills.",
     },
     {
       icon: "https://img.icons8.com/ios-glyphs/50/000000/fiverr.png",
@@ -60,5 +60,22 @@ const EducationItems = {
     },
   ],
 };
+const VolunteeringItems = {
+  title: "Volunteering",
+  data: [
+    {
+      icon: `${process.env.PUBLIC_URL}/images/GfD.png`,
+      company: "Google For Developers",
+      title: "Campus Lead",
+      date: "2023 - 2024",
+    },
+    {
+      icon: `${process.env.PUBLIC_URL}/images/mslearn.png`,
+      company: "Microsoft Learn",
+      title: "Gold Student Ambassador",
+      date: "2022 - Present",
+    },
+  ],
+};
 
-export { Skills, ExperienceItems, EducationItems, Tools };
+export { Skills, ExperienceItems, EducationItems, VolunteeringItems, Tools };

@@ -10,6 +10,7 @@ import Experience from "./Components/Experience/Experience";
 import ToolStack from "./Components/ToolStack/ToolStack";
 import { ExperienceItems } from "./data";
 import { EducationItems } from "./data";
+import { VolunteeringItems } from "./data";
 export default function App() {
   return (
     <div className="App">
@@ -50,6 +51,12 @@ export default function App() {
       <div className="row">
         <div className="col-md-12">
           <Container Child={ToolStack} />
+        </div>
+      </div>
+      {/* Volunteering row */}
+      <div className="row">
+        <div className="col-md-12">
+          <Container Child={Experience} data={VolunteeringItems} />
         </div>
       </div>
     </div>
