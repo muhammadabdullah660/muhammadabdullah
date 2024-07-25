@@ -1,13 +1,14 @@
 import React from "react";
 import "./Experience.css"; // Import the CSS file for styling
-import { ExperienceItems } from "../../data"; // Import the experience data from data.jsx
 
-export default function Experience() {
+export default function Experience(
+  { data } // Pass the data prop to the Experience component
+) {
   return (
     <>
-      <h2>Experience</h2>
+      <h2>{data.title}</h2>
 
-      {ExperienceItems.map((item, index) => (
+      {data.data.map((item, index) => (
         <div className="container-fluid mt-5 ps-0">
           <div className="row" key={index}>
             <div className="col-md-2">

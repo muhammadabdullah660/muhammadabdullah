@@ -7,8 +7,9 @@ import Carousel from "./Components/Carousel/Carousel";
 import { Skills } from "./data";
 import About from "./Components/About/About";
 import Experience from "./Components/Experience/Experience";
-import Education from "./Components/Education/Education";
 import ToolStack from "./Components/ToolStack/ToolStack";
+import { ExperienceItems } from "./data";
+import { EducationItems } from "./data";
 export default function App() {
   return (
     <div className="App">
@@ -36,13 +37,13 @@ export default function App() {
       {/* Experience row */}
       <div className="row">
         <div className="col-md-12">
-          <Container Child={Experience} />
+          <Container Child={Experience} data={ExperienceItems} />
         </div>
       </div>
       {/* Education row */}
       <div className="row">
         <div className="col-md-12">
-          <Container Child={Education} />
+          <Container Child={Experience} data={EducationItems} />
         </div>
       </div>
       {/* Tool Stack row */}

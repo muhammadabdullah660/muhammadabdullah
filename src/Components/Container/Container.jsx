@@ -1,5 +1,9 @@
 import React from "react";
 import "./Container.css";
-export default function Container({ Child }) {
-  return <div className="main">{Child ? <Child /> : "No child component"}</div>;
+export default function Container({ Child, data }) {
+  return (
+    <div className="main">
+      {Child ? <Child data={data} /> : "No child component"}
+    </div>
+  );
 }

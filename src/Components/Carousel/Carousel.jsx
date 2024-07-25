@@ -14,7 +14,6 @@ const Carousel = ({ data }) => {
         {data.map((skill, index) => (
           <SkillItem key={index}>{skill}</SkillItem>
         ))}
-        {/* Repeat the skills to create a continuous scrolling effect */}
         {data.map((skill, index) => (
           <SkillItem key={index + data.length}>{skill}</SkillItem>
         ))}
