@@ -3,7 +3,7 @@ import "./Avatar.css";
 
 const Avatar = () => {
   const imageUrl = `${process.env.PUBLIC_URL}/images/Muhammad Abdullah.jpg`;
-  const altText = "Avatar";
+  const altText = "Muhammad Abdullah";
   return (
     <div className="avatar-container">
       <div className="rounded-picture">

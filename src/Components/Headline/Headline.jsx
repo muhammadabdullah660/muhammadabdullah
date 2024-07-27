@@ -43,7 +43,7 @@ export default function Headline() {
               width="25"
               height="25"
               src="https://img.icons8.com/ios/50/6C6C6D/marker--v1.png"
-              alt="marker--v1"
+              alt="Muhammad Abdullah"
             />
             <h4>Lahore, PK</h4>
           </div>

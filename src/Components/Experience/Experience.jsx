@@ -13,7 +13,12 @@ export default function Experience(
           <div className="row" key={index}>
             <div className="col-md-2">
               <div className="icon-container">
-                <img width="50" height="50" src={item.icon} alt={item.title} />
+                <img
+                  width="50"
+                  height="50"
+                  src={item.icon}
+                  alt="Muhammad Abdullah"
+                />
               </div>
             </div>
             <div className="col-md-10">
