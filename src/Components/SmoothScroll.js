@@ -1,14 +1,18 @@
-// SmoothScroll.js
-import { motion } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const SmoothScroll = ({ children }) => {
-  const containerRef = useRef(null);
+  const outerContainerRef = useRef(null);
+  const innerContainerRef = useRef(null);
+  const [scrollHeight, setScrollHeight] = useState(0);
 
   useEffect(() => {
-    const container = containerRef.current;
+    const outerContainer = outerContainerRef.current;
+    const innerContainer = innerContainerRef.current;
+    setScrollHeight(innerContainer.scrollHeight);
+
     const handleScroll = () => {
-      container.style.transform = `translateY(${-window.scrollY}px)`;
+      const scrollY = window.scrollY;
+      outerContainer.style.transform = `translateY(${-scrollY}px)`;
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -18,16 +22,22 @@ const SmoothScroll = ({ children }) => {
   }, []);
 
   return (
-    <div style={{ overflow: "hidden", position: "relative" }}>
-      <motion.div
-        ref={containerRef}
+    <div
+      style={{ height: scrollHeight, overflow: "hidden", position: "relative" }}
+    >
+      <div
+        ref={outerContainerRef}
         style={{
           willChange: "transform",
-          transition: "transform 2s ease-out",
+          position: "fixed",
+          width: "100%",
+          top: 0,
+          left: 0,
+          transition: "transform 1s ease-out",
         }}
       >
-        {children}
-      </motion.div>
+        <div ref={innerContainerRef}>{children}</div>
+      </div>
     </div>
   );
 };
