@@ -84,4 +84,34 @@ const VolunteeringItems = {
   ],
 };
 
-export { Skills, ExperienceItems, EducationItems, VolunteeringItems, Tools };
+const Socials = [
+  {
+    icon: "https://img.icons8.com/ios/50/FFFFFF/linkedin.png",
+    link: "https://www.linkedin.com/in/muhammadabdullah00/",
+  },
+  {
+    icon: "https://img.icons8.com/ios/50/FFFFFF/github--v1.png",
+    link: "https://github.com/muhammadabdullah660",
+  },
+  {
+    icon: `${process.env.PUBLIC_URL}/images/topmate.png`,
+    link: "https://topmate.io/muhammad_abdullah15",
+  },
+  {
+    icon: "https://img.icons8.com/ios/50/FFFFFF/youtube-play--v1.png",
+    link: "https://www.youtube.com/channel/UCOJ6W9G7QW0JZq1vgIlDSKw",
+  },
+  {
+    icon: "https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png",
+    link: "https://instagram.com/muhammadabdullah_1001",
+  },
+];
+
+export {
+  Skills,
+  ExperienceItems,
+  EducationItems,
+  VolunteeringItems,
+  Tools,
+  Socials,
+};

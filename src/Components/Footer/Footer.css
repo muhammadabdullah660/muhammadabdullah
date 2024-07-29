@@ -1,0 +1,24 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 3%; /* Adjust the gap as needed */
+  margin-top: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 5%;
+}
+
+.footer h2,
+.footer p,
+.button-group {
+  margin-bottom: 20px;
+}

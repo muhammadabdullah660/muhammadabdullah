@@ -11,6 +11,7 @@ import ToolStack from "./Components/ToolStack/ToolStack";
 import { ExperienceItems, EducationItems, VolunteeringItems } from "./data";
 import SmoothScroll from "./Components/SmoothScroll.js";
 import Divider from "./Components/Divider/Divider.jsx";
+import Footer from "./Components/Footer/Footer.jsx";
 
 export default function App() {
   return (
@@ -62,6 +63,8 @@ export default function App() {
           </div>
         </div>
         <Divider />
+        {/* Footer row */}
+        <Footer />
       </div>
     </SmoothScroll>
   );
