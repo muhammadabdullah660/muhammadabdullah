@@ -8,7 +8,10 @@
   border: 1px solid #ccc; /* Optional: border to better visualize the box */
   border-radius: 6px;
 }
-
+a {
+  text-decoration: none;
+  color: #000;
+}
 /* .pl-0 {
   padding-left: 0;
 } */

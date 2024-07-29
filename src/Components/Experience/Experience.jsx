@@ -12,19 +12,30 @@ export default function Experience(
         <div className="container-fluid mt-4 ps-0">
           <div className="row" key={index}>
             <div className="col-md-2">
-              <div className="icon-container">
-                <img
-                  width="50"
-                  height="50"
-                  src={item.icon}
-                  alt="Muhammad Abdullah"
-                />
-              </div>
+              <a href={item.link}>
+                <div className="icon-container">
+                  <img
+                    width="50"
+                    height="50"
+                    src={item.icon}
+                    alt="Muhammad Abdullah"
+                  />
+                </div>
+              </a>
             </div>
             <div className="col-md-10">
               <div className="row">
-                <div className="col-md-12 ps-0 pe-0">
-                  <h4>{item.company}</h4>
+                <div className="col-md-12 p-0">
+                  <a href={item.link} className="d-flex align-items-center">
+                    <h4 className="mb-0">{item.company}</h4>
+                    <img
+                      width="20"
+                      height="20"
+                      src="https://img.icons8.com/ios-glyphs/20/FFFFFF/external-link.png"
+                      alt="external-link"
+                      className="ms-2"
+                    />
+                  </a>
                 </div>
               </div>
               <div className="row">
