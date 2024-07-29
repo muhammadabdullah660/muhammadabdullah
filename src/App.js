@@ -10,6 +10,7 @@ import Experience from "./Components/Experience/Experience";
 import ToolStack from "./Components/ToolStack/ToolStack";
 import { ExperienceItems, EducationItems, VolunteeringItems } from "./data";
 import SmoothScroll from "./Components/SmoothScroll.js";
+import Divider from "./Components/Divider/Divider.jsx";
 
 export default function App() {
   return (
@@ -60,6 +61,7 @@ export default function App() {
             <Container Child={Experience} data={VolunteeringItems} />
           </div>
         </div>
+        <Divider />
       </div>
     </SmoothScroll>
   );

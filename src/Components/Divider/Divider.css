@@ -1,0 +1,7 @@
+/* Divider.css */
+.gradient-divider {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(to right, black, white, black);
+  margin: 20px 0; /* Adjust the margin as needed */
+}
