@@ -107,6 +107,28 @@ const Socials = [
   },
 ];
 
+const Services = {
+  title: "Services",
+  data: [
+    {
+      title: "Web Design",
+      desc: "Create responsive and visually appealing web interfaces using HTML, CSS, JavaScript, and React, ensuring a seamless user experience across all devices.",
+    },
+    {
+      title: "SaaS Development",
+      desc: "Develop and maintain robust web applications using React, Node.js, and MongoDB for comprehensive front-end and back-end solutions.",
+    },
+    {
+      title: "Mentorship and Training",
+      desc: "Provide guidance and training in software development, emphasizing C#, Python, JavaScript, Git, and Firebase, to enhance coding skills and project management.",
+    },
+    {
+      title: "Community Building and Management",
+      desc: "Create and execute strategies to develop thriving tech communities through events, workshops, and engagement initiatives.",
+    },
+  ],
+};
+
 export {
   Skills,
   ExperienceItems,
@@ -114,4 +136,5 @@ export {
   VolunteeringItems,
   Tools,
   Socials,
+  Services,
 };

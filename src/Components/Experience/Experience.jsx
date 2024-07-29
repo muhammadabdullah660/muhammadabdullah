@@ -24,7 +24,7 @@ export default function Experience(
               </a>
             </div>
             <div className="col-md-10">
-              <div className="row">
+              <div className="row mb-2">
                 <div className="col-md-12 p-0">
                   <a href={item.link} className="d-flex align-items-center">
                     <h4 className="mb-0">{item.company}</h4>

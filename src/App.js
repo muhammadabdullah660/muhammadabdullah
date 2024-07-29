@@ -12,6 +12,7 @@ import { ExperienceItems, EducationItems, VolunteeringItems } from "./data";
 import SmoothScroll from "./Components/SmoothScroll.js";
 import Divider from "./Components/Divider/Divider.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
+import Service from "./Components/Services/Service.jsx";
 
 export default function App() {
   return (
@@ -54,6 +55,12 @@ export default function App() {
         <div className="row">
           <div className="col-md-12">
             <Container Child={ToolStack} />
+          </div>
+        </div>
+        {/* Services row */}
+        <div className="row">
+          <div className="col-md-12">
+            <Container Child={Service} />
           </div>
         </div>
         {/* Volunteering row */}
