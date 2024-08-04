@@ -7,7 +7,7 @@ export function BlurFadeDemo() {
 
   useEffect(() => {
     // Fetch the image list from the public directory
-    fetch("/images/imageList.json")
+    fetch(`${process.env.PUBLIC_URL}/images/imageList.json`)
       .then((response) => response.json())
       .then((data) => {
         setImages(data);
