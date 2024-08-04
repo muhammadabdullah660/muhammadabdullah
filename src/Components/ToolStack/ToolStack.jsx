@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "../Carousel/Carousel";
-import { Tools } from "../../data";
+import { Tools } from "../../utils/data";
 
 export default function ToolStack() {
   return (

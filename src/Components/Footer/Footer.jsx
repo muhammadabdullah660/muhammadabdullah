@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import CustomButton from "../CustomButton/CustomButton";
-import { Socials } from "../../data";
+import { Socials } from "../../utils/data";
 export default function Footer() {
   const handleEmailClick = () => {
     window.location.href = "mailto:muhammadabdullahtalib51@gmail.com";

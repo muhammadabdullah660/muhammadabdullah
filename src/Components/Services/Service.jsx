@@ -1,6 +1,6 @@
 import React from "react";
 import "./Service.css";
-import { Services } from "../../data";
+import { Services } from "../../utils/data";
 export default function Service() {
   return (
     <>
