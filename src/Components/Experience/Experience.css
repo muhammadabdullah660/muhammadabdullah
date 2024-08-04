@@ -8,10 +8,15 @@
   border: 1px solid #ccc; /* Optional: border to better visualize the box */
   border-radius: 6px;
 }
+
 a {
   text-decoration: none;
   color: #000;
 }
-/* .pl-0 {
-  padding-left: 0;
-} */
+
+@media (max-width: 767.98px) {
+  .position-title,
+  .date {
+    margin-top: 5px;
+  }
+}
