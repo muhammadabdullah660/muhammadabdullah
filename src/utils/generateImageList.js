@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const directoryPath = path.join(__dirname, "../../public/images/life");
+const directoryPath = path.join(__dirname, "../../public/images/Life");
 
 // Check if the directory exists
 if (!fs.existsSync(directoryPath)) {
@@ -12,7 +12,7 @@ if (!fs.existsSync(directoryPath)) {
 // Read filenames from the directory
 const imageNames = fs
   .readdirSync(directoryPath)
-  .filter((file) => /\.(jpg|jpeg|png)$/.test(file));
+  .filter((file) => /\.(JPG|jpg|jpeg|png)$/.test(file));
 
 // Create an array of image objects with paths and dimensions
 const imageList = imageNames.map((name, i) => {

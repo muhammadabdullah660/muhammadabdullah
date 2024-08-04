@@ -1,14 +1,10 @@
 [
   {
-    "src": "/images/life/Community Connect.jpg",
-    "title": "Community Connect",
+    "src": "/images/life/AWS CD'24.JPG",
+    "title": "AWS CD'24",
     "desc": ""
   },
-  {
-    "src": "/images/life/DevFest AI'23.jpg",
-    "title": "DevFest AI'23",
-    "desc": ""
-  },
+
   {
     "src": "/images/life/DevFest Lahore'23.jpg",
     "title": "DevFest Lahore'23",
@@ -30,8 +26,33 @@
     "desc": ""
   },
   {
+    "src": "/images/life/Arbisoft.JPG",
+    "title": "Arbisoft",
+    "desc": ""
+  },
+  {
+    "src": "/images/life/Community Connect.jpg",
+    "title": "Community Connect",
+    "desc": ""
+  },
+  {
+    "src": "/images/life/DevFest AI'23.jpg",
+    "title": "DevFest AI'23",
+    "desc": ""
+  },
+  {
+    "src": "/images/life/GDSC UET Dinner.JPG",
+    "title": "GDSC UET Dinner",
+    "desc": ""
+  },
+  {
     "src": "/images/life/GfD Community Mixer.jpg",
     "title": "GfD Community Mixer",
+    "desc": ""
+  },
+  {
+    "src": "/images/life/Gold MLSA.JPG",
+    "title": "Gold MLSA",
     "desc": ""
   },
   {
@@ -50,6 +71,11 @@
     "desc": ""
   },
   {
+    "src": "/images/life/ITEC'24.JPG",
+    "title": "ITEC'24",
+    "desc": ""
+  },
+  {
     "src": "/images/life/KCD'23.jpg",
     "title": "KCD'23",
     "desc": ""
@@ -60,8 +86,18 @@
     "desc": ""
   },
   {
+    "src": "/images/life/Mindstorm Studios.JPG",
+    "title": "Mindstorm Studios",
+    "desc": ""
+  },
+  {
     "src": "/images/life/Notion Lahore Launch.jpg",
     "title": "Notion Lahore Launch",
+    "desc": ""
+  },
+  {
+    "src": "/images/life/official..JPG",
+    "title": "official.",
     "desc": ""
   },
   {
