@@ -8,16 +8,25 @@ const SmoothScroll = ({ children }) => {
   useEffect(() => {
     const outerContainer = outerContainerRef.current;
     const innerContainer = innerContainerRef.current;
-    setScrollHeight(innerContainer.scrollHeight);
+
+    const updateScrollHeight = () => {
+      setScrollHeight(innerContainer.scrollHeight);
+    };
+
+    updateScrollHeight(); // Set initial height
 
     const handleScroll = () => {
       const scrollY = window.scrollY;
       outerContainer.style.transform = `translateY(${-scrollY}px)`;
     };
 
+    const resizeObserver = new ResizeObserver(updateScrollHeight);
+    resizeObserver.observe(innerContainer);
+
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
+      resizeObserver.disconnect();
     };
   }, []);
 
