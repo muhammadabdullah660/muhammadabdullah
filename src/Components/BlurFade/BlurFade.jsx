@@ -27,7 +27,7 @@ export function BlurFadeDemo() {
               <div className="card">
                 <img
                   className="size-full object-contain"
-                  src={image.src}
+                  src={`${process.env.PUBLIC_URL}${image.src}`}
                   alt={`img ${idx + 1}`}
                   style={{ width: image.width, height: image.height }}
                 />
