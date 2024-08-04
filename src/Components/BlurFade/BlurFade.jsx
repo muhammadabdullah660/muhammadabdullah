@@ -30,6 +30,7 @@ export function BlurFadeDemo() {
                   src={`${process.env.PUBLIC_URL}${image.src}`}
                   alt={`img ${idx + 1}`}
                   style={{ width: image.width, height: image.height }}
+                  loading="lazy"
                 />
                 <div className="card__content">
                   <h5 className="card__title">{image.title}</h5>

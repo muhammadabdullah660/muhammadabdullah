@@ -21,7 +21,7 @@ import { BlurFadeDemo } from "./Components/BlurFade/BlurFade";
 
 export default function App() {
   return (
-    <div style={{ height: "10000px" }}>
+    <div className="parent">
       <SmoothScroll>
         <div className="App">
           {/* Headline row */}
