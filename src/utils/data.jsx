@@ -103,7 +103,7 @@ const Socials = [
   },
   {
     icon: "https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png",
-    link: "https://instagram.com/muhammadabdullah_1001",
+    link: "https://www.instagram.com/muhammad__abdullahhh/",
   },
 ];
 
