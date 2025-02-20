@@ -26,6 +26,14 @@ const ExperienceItems = {
   title: "Experience",
   data: [
     {
+      icon: `${process.env.PUBLIC_URL}/images/10Pearls.jpeg`,
+      company: "10Pearls",
+      title: "Software Engineering Intern(MERN)",
+      date: "Dec. 24 - Feb. 25",
+      desc: "Built a MERN-based notes app with CRUD, sorting, search, favorites, and AI-driven mood analysis and summaries using Google Gemini and Generative AI. Ensured reliability and performance through comprehensive testing with Jest",
+      link: "https://www.linkedin.com/company/10pearls-pakistan/",
+    },
+    {
       icon: `${process.env.PUBLIC_URL}/images/Woit Solutions.png`,
       company: "Woit Solutions",
       title: "Software Development Intern",
@@ -68,11 +76,25 @@ const VolunteeringItems = {
   title: "Volunteering",
   data: [
     {
+      icon: `${process.env.PUBLIC_URL}/images/MLSALahore.png`,
+      company: "MLSA Lahore",
+      title: "Chapter Co-Lead",
+      date: "2023 - Present",
+      link: "https://www.linkedin.com/company/mlsalahore/",
+    },
+    {
+      icon: `${process.env.PUBLIC_URL}/images/Tech Tehwaar Logo.png`,
+      company: "Tech Tehwaar-تہوار",
+      title: "Public Relation Lead",
+      date: "2023 - Present",
+      link: "https://www.linkedin.com/company/tech-tehwaar/",
+    },
+    {
       icon: `${process.env.PUBLIC_URL}/images/GfD.png`,
       company: "Google For Developers",
       title: "Campus Lead",
       date: "2023 - 2024",
-      link: "https://gdsc.community.dev/university-of-engineering-and-technology-lahore-lahore-pakistan/",
+      link: "https://gdg.community.dev/gdg-on-campus-university-of-engineering-and-technology-lahore-lahore-pakistan/",
     },
     {
       icon: `${process.env.PUBLIC_URL}/images/mslearn.png`,

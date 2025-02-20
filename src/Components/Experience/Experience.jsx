@@ -24,7 +24,12 @@ export default function Experience({ data }) {
             <div className="col-md-10">
               <div className="row mb-2">
                 <div className="col-md-12">
-                  <a href={item.link} className="d-flex align-items-center">
+                  <a
+                    href={item.link}
+                    className="d-flex align-items-center"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <h4 className="mb-0 position-title">{item.company}</h4>
                     <img
                       width="20"
