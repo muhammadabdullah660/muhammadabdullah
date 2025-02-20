@@ -26,7 +26,7 @@ const ExperienceItems = {
   title: "Experience",
   data: [
     {
-      icon: `${process.env.PUBLIC_URL}/images/10Pearls.jpeg`,
+      icon: `${process.env.PUBLIC_URL}/images/10pearls.png`,
       company: "10Pearls",
       title: "Software Engineering Intern(MERN)",
       date: "Dec. 24 - Feb. 25",
